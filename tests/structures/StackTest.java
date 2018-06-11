@@ -30,6 +30,7 @@ class StackTest {
 
     @Test
     void isEmpty() {
+        assertFalse(stack.isEmpty());
         stack.pop();
         assertTrue(stack.isEmpty());
     }
